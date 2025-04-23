@@ -1,69 +1,62 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styl5.css" rel="stylesheet"  media="screen and (min-width: 600px)">
-    <title>Portal ogłoszeniowy</title>
+    <link href="styl5.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <title>Document</title>
 </head>
 <body>
-    <div id="baner">
-        <h1>Portal Ogłoszeniowy</h1>
-    </div>
-    <div>
-        <div id="pan1">
-            <img src="logo_male.png" alt="logo"/>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 border border-dark">
+                    <img src="reklama.png"/>
+                    wiersz 1 Kolumna 1
+                </div>
+                <div class="col-md-4 border border-dark">
+                    <img src="produkt.png"/>
+                    wiersz 1 Kolumna 2
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 border border-dark">
+                    <img src="prod.png"/>
+                    wiersz 2 Kolumna 1
+                    opisowy opis
+                </div>
+                <div class="col-sm-4 border border-dark">
+                    <img src="prod.png"/>
+                    wiersz 2 Kolumna 2
+                    opisowy opis
+                </div>
+                <div class="col-sm-4 border border-dark">
+                    <img src="prod.png"/>
+                    wiersz 2 Kolumna 3
+                    opisowy opis
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 border border-dark">
+                    <img src="prod.png"/>
+                    wiersz 3 Kolumna 1
+                    opisowy opis
+                </div>
+                <div class="col-sm-4 border border-dark">
+                    <img src="prod.png"/>
+                    wiersz 3 Kolumna 2
+                    opisowy opis
+                </div>
+                <div class="col-sm-4 border border-dark">
+                    <img src="prod.png"/>
+                    wiersz 3 Kolumna 3
+                    opisowy opis
+                </div>
+            </div>
         </div>
-        <div id="pan2">
-            <h3>Adres</h3>
-            <p>ul. Morska 45 Gdynia</p>
-        </div>
-        <div id="pan3">
-            <h3>telefon</h3>
-            <p>601601601</p>
-        </div>
-        <div id="pan4">
-            <h3>e-mail</h3>
-            <p>ogloszenia@poczta.pl</p>
-        </div>
-    </div>
-    
-    <div>
-        <div id="panL">
-            <h2>Ceny ogłoszeń</h2>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>1</td>
-                        <td rowspan="2">1</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>1</td>
-                        
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div id="panC">
-            <h2>Witamy na stronie naszego portalu!</h2>
-            <img src="logo_duze.png" alt="ogłoszenia"/>
-        </div>
-        <div id="panR">
-            <h2>Ile kosztuje ogłoszenie?</h2>
-            <input type="number" id="koszt"/>
-            <input type="checkbox" id="check"/>
-            <button >Oblicz</button>
-        </div>
-    </div>
-    <footer><p>
-        Portal ogłoszeniowy opracował: aaaaaaaaaaaaaaaaaaaa
-    </p></footer>
+    </main>
+
 </body>
 </html>
